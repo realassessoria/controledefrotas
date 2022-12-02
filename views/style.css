@@ -45,6 +45,8 @@ img {
 
 #opac_img {
     display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0.3;
     margin-top: 3.5rem;
 }
