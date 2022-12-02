@@ -13,7 +13,8 @@
 }
 
 body {
-    background: var(--bg_img)
+    background: var(--bg_img);
+    font-size: 13px;
 }
 
 .content-img {
@@ -35,16 +36,17 @@ h1 {
 a {
     display: flex;
     margin: auto;
-    margin-top: 1.5rem;
+    margin-top: 1.3rem;
     text-decoration: none;
     color: black;
     font-family: var(--font_tittle);
+    
 }
 
 .ancor_tags {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 1.4rem;
 }
 
 .content-img {
