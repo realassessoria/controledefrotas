@@ -42,3 +42,9 @@ img {
     margin: auto;
     margin-top: 3rem;
 }
+
+#opac_img {
+    display: flex;
+    opacity: 0.3;
+    margin-top: 3.5rem;
+}
