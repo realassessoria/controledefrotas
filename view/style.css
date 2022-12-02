@@ -55,3 +55,8 @@ a {
     margin-left: auto; 
     width: 140px;
 }
+
+.opac_img {
+    display: flex;
+    opacity: 0.5;
+}
