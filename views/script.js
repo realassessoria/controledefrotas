@@ -1,5 +1,5 @@
 var slideUp = {
-    distance: '200%',
+    distance: '100%',
     origin: 'top',
     delay: 100,
     reset: true,
