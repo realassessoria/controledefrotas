@@ -10,6 +10,7 @@
     --font: 'Source Sans Pro', sans-serif;
     --color: #282c67;
     --bg_img: url(../assets/a60b1be70b6d4c194b2ed9ecae0a1d35.jpg);
+    --xmas: url(https://static.vecteezy.com/system/resources/previews/001/193/200/non_2x/santa-hat-png.png);
 }
 
 body {
@@ -20,10 +21,17 @@ body {
     background: var(--bg_img) 100vh fixed;
 }
 
+.xmas {
+    display: flex;
+    margin-top: -86px;
+    margin-right: 160px;
+    transform: rotate(-25deg);
+}
+
 h1 {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
     color: var(--color);
 }
 
