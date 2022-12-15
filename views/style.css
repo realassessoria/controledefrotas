@@ -30,12 +30,6 @@ body {
     transform: rotate(-25deg);
 }
 
-.santa {
-    transform: rotate(-3deg);
-    margin-left: -300%;
-    animation: slideTo 8s;
-}
-
 h1 {
     display: flex;
     justify-content: center;
@@ -69,13 +63,4 @@ img {
     margin-top: 3.5rem;
     align-items: center;
     opacity: 0.09;
-}
-
-@keyframes slideTo {
-    from {
-        margin-left: -300%;
-      }
-    to {
-        margin-left: 300%;
-      }
 }
