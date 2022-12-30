@@ -23,12 +23,14 @@ body {
     background: var(--bg_img) 100vh fixed;
 }
 
+/*
 .xmas {
     display: flex;
     margin-top: -86px;
     margin-right: 160px;
     transform: rotate(-25deg);
 }
+*/
 
 h1 {
     display: flex;
