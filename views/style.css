@@ -35,7 +35,7 @@ body {
 h1 {
     display: flex;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: 5rem;
     color: var(--color);
     font-family: var(--font-title);
     font-weight: 900;
@@ -55,7 +55,7 @@ a {
 img {
     display: flex;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 #opac_img {
