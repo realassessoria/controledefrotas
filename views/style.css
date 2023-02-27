@@ -41,10 +41,21 @@ h1 {
     font-weight: 900;
 }
 
-a {
+button {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+    margin-left: 8%;
+    font-family: var(--font-text);
+    color: var(--color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
     font-family: var(--font-text);
     color: var(--color);
     font-size: 20px;
@@ -65,4 +76,56 @@ img {
     margin-top: 3.5rem;
     align-items: center;
     opacity: 0.09;
+}
+
+#exibir-formulario {
+    display: flex;
+    background-color: var(--color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  #widget-formulario {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: var(--color);
+  }
+  
+#fechar-formulario {
+    display: flex;
+    margin-left: 90%;
+    margin-top: -10%;
+    width: 30px;
+}
+
+#exibir-formulario-fim {
+    display: flex;
+    background-color: var(--color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  #widget-formulario-fim {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: var(--color);
+  }
+  
+#fechar-formulario-fim {
+    display: flex;
+    margin-left: 90%;
+    margin-top: -10%;
+    width: 30px;
 }

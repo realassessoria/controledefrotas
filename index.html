@@ -7,10 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./views/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/preload.js" defer></script>
     <title>Controle de Frota / Real Assessoria</title>
 </head>
 <body>
     <main>
+        <img loading="lazy" src="" alt="">
         <figure>
             <img src="./assets/Real_Marca Branca.png" width="140px" alt="Real Assessoria Logo">
         </figure>
@@ -18,12 +20,20 @@
             <img src="https://static.vecteezy.com/system/resources/previews/001/193/200/non_2x/santa-hat-png.png" width="40px" alt="">
         </figure>-->
         <h1>Controle de Frota</h1>
-        <a href="https://forms.gle/BCc1ZJLxMkceYYPt7">Saídas da Real</a>
-        <a href="https://forms.gle/pkQdgW6cKAN7xzNK9">Chegadas na Real</a>
-        <a href="https://forms.gle/q57jQtVcHaPQhBkP9">Abastecimentos de Veículo</a>
+        <button id="exibir-formulario">Saídas da Real</button>
+       <div id="widget-formulario" style="display: none;">
+        <button id="fechar-formulario">&times;</button>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6Zfm6o7EAb2m2XmVCVUpKLIQLBX6jpg1CwwY8AAO_iKMO8A/viewform?embedded=true" width="400" height="666" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+      </div>
+      <button id="exibir-formulario-fim">Chegadas na Real</button>
+       <div id="widget-formulario-fim" style="display: none;">
+        <button id="fechar-formulario-fim">&times;</button>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfOIqbCHVcYvv2EnxLBfkQQbY_raEjCq9Pf2Q6E4MNuBd3VQA/viewform?embedded=true" width="400" height="666" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+      </div>
+        <a href="https://forms.gle/NdGUVqCvKd5RePPd8">Abastecimentos de Veículos</a>
         <div id="opac_img">
             <figure>
-                <img src="./assets/LOGO_REAL.png" alt="Real Assessoria Logo">
+                <img src="./assets/LOGO_REAL.png" width="220px" alt="Real Assessoria Logo">
             </figure>
         </div>
     </main>
@@ -32,4 +42,8 @@
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="./views/script.js"></script>
 -->
+<script src="./scripts/abrir-form.js"></script>
+<script src="./scripts/abrir-form-fim.js"></script>
+<script src="./scripts/fechar-form.js"></script>
+<script src="./scripts/fechar-form-fim.js"></script>
 </html>
