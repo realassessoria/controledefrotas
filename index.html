@@ -12,12 +12,21 @@
 </head>
 <body>
     <main>
-        <div id="preloader">
-            <div id="loader"></div>
-            <h1>Bem Vindo Colaborador</h1>
+        <div class="preloader">
+            <div class="welcome-message">Bem-vindo, colaborador!</div>
+            <div class="bars-container">
+              <div class="bars">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
             </div>
-        </div>
-        <img loading="lazy" src="" alt="">
+          </div>
         <figure>
             <img src="./assets/Real_Marca Branca.png" width="140px" alt="Real Assessoria Logo">
         </figure>
@@ -25,15 +34,15 @@
             <img src="https://static.vecteezy.com/system/resources/previews/001/193/200/non_2x/santa-hat-png.png" width="40px" alt="">
         </figure>-->
         <h1>Controle de Frota</h1>
-        <button id="exibir-formulario">Saídas da Real</button>
+        <button id="exibir-formulario" onclick="showFormPreloader()">Saídas da Real</button>
        <div id="widget-formulario" style="display: none;">
         <button id="fechar-formulario">&times;</button>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6Zfm6o7EAb2m2XmVCVUpKLIQLBX6jpg1CwwY8AAO_iKMO8A/viewform?embedded=true" width="400" height="666" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6Zfm6o7EAb2m2XmVCVUpKLIQLBX6jpg1CwwY8AAO_iKMO8A/viewform?embedded=true" width="400" height="666" frameborder="0" marginheight="0" marginwidth="0" ></iframe>
       </div>
       <button id="exibir-formulario-fim">Chegadas na Real</button>
        <div id="widget-formulario-fim" style="display: none;">
         <button id="fechar-formulario-fim">&times;</button>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfOIqbCHVcYvv2EnxLBfkQQbY_raEjCq9Pf2Q6E4MNuBd3VQA/viewform?embedded=true" width="400" height="666" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfOIqbCHVcYvv2EnxLBfkQQbY_raEjCq9Pf2Q6E4MNuBd3VQA/viewform?embedded=true" width="400" height="666" frameborder="0" marginheight="0" marginwidth="0"></iframe>
       </div>
         <a href="https://forms.gle/NdGUVqCvKd5RePPd8">Abastecimentos de Veículos</a>
         <div id="opac_img">
@@ -51,4 +60,5 @@
 <script src="./scripts/abrir-form-fim.js"></script>
 <script src="./scripts/fechar-form.js"></script>
 <script src="./scripts/fechar-form-fim.js"></script>
+<script src="./scripts/preload-form.js"></script>
 </html>
