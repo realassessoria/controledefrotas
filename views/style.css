@@ -53,14 +53,21 @@ body {
     background: var(--bg_img) 100vh fixed;
 }
 
-/*
+
 .xmas {
     display: flex;
-    margin-top: -86px;
-    margin-right: 160px;
+    margin-top: -115px;
+    margin-right: 73px;
     transform: rotate(-25deg);
 }
-*/
+
+.easter {
+  display: flex;
+  margin-top: 130%;
+  margin-left: -48%;
+  opacity: 0.09;
+}
+
 
 h1 {
     display: flex;
@@ -94,18 +101,18 @@ a {
 }
 
 img {
-    display: flex;
-    margin: auto;
-    margin-top: 1rem;
+  display: flex;
+  margin: auto;
+  margin-top: 1rem;
 }
 
 #opac_img {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 3.5rem;
-    align-items: center;
-    opacity: 0.09;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3.5rem;
+  align-items: center;
+  opacity: 0.40;
 }
 
 #exibir-formulario {
